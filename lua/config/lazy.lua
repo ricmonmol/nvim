@@ -92,3 +92,4 @@ require("rose-pine").setup({
   },
 })
 vim.cmd("colorscheme rose-pine")
+vim.g.python3_host_prog = vim.fn.expand("~/.venvs/nvim/bin/python")
