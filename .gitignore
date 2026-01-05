@@ -6,3 +6,5 @@ debug
 foo.*
 *.log
 data
+rplugin/python3/__pycache__
+.env
