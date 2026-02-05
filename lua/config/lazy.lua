@@ -73,7 +73,7 @@ require("lualine").setup({
     end,
   } },
 })
-require("mini.indentscope").setup()
+-- require("mini.indentscope").setup()
 -- require("lualine").setup({
 --   options = {
 --     theme = "nord",
@@ -92,3 +92,8 @@ require("rose-pine").setup({
   },
 })
 vim.cmd("colorscheme rose-pine")
+require("hlchunk").setup({
+  chunk = {
+    enable = true,
+  },
+})
