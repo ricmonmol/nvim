@@ -20,14 +20,6 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import/override with your plugins
     { import = "plugins" },
-    -- {
-    --   "zbirenbaum/copilot.lua",
-    --   cmd = "Copilot",
-    --   event = "InsertEnter",
-    --   config = function()
-    --     require("copilot").setup({})
-    --   end,
-    -- },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
@@ -59,13 +51,6 @@ require("lazy").setup({
     },
   },
 })
--- require("CopilotChat").setup({
---   window = {
---     layout = "horizontal", -- or "horizontal", "float", "replace"
---     width = 0.5,
---     height = 0.4,
---   },
--- })
 require("lualine").setup({
   sections = { lualine_z = {
     function()
@@ -73,25 +58,9 @@ require("lualine").setup({
     end,
   } },
 })
--- require("mini.indentscope").setup()
--- require("lualine").setup({
---   options = {
---     theme = "nord",
---   },
--- })-- Default options:
---
---
--- require("gruvbox").setup({
---   bold = false,
---   contrast = "hard", -- can be "hard", "soft" or empty string
---   transparent_mode = true,
--- })
-require("rose-pine").setup({
-  styles = {
-    transparency = true,
-  },
-})
-vim.cmd("colorscheme rose-pine")
+
+vim.cmd("colorscheme base16-kanagawa-dragon")
+
 require("hlchunk").setup({
   chunk = {
     enable = true,

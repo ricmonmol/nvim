@@ -13,7 +13,8 @@
 --     end,
 --   },
 -- }
---
 return {
-  { "rose-pine/neovim", name = "rose-pine" },
+  {
+    "RRethy/base16-nvim",
+  },
 }
