@@ -1,5 +1,7 @@
 {
   "extras": [
+    "lazyvim.plugins.extras.ai.sidekick",
+    "lazyvim.plugins.extras.dap.core",
     "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.angular",
     "lazyvim.plugins.extras.lang.json",
