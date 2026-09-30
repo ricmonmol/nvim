@@ -61,7 +61,7 @@ require("lualine").setup({
 
 -- vim.cmd("colorscheme base16-kanagawa-dragon")
 
--- vim.cmd("colorscheme base16-github-dark")
+vim.cmd("colorscheme base16-tinta")
 
 require("hlchunk").setup({
 	chunk = {
